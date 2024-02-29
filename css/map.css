@@ -1,0 +1,99 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(248, 253, 207);
+}
+
+#main{
+    transition: margin-right 0.5s;
+    padding: 20px; 
+}
+
+#main span{
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+
+.sidenav{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #78C1F3;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sidenav .closebtn{
+    font-size: 36px;
+    border-bottom: none;
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.sidenav ul {
+    clear: both;
+    list-style-type: none;
+}
+
+.sidenav ul li a {
+    padding: 12px 8px 12px 30px;
+    text-decoration: none;
+    font-size: 18px; 
+    color:white;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid #5283a5;
+    text-transform: uppercase;
+}
+
+.sidenav ul li a:hover{
+    background: #69A9D5
+}
+
+svg{
+    padding-left: 50px;
+}
+
+#Tokyo:hover {
+    fill:rgb(255, 199, 234);
+    transition: fill 0.4s;
+    cursor: pointer;
+}
+
+#Nagoya:hover {
+    fill:rgb(255, 199, 234);
+    transition: fill 0.4s;
+    cursor: pointer;
+}
+
+#Kyoto:hover {
+    fill:rgb(255, 199, 234);
+    transition: fill 0.4s;
+    cursor: pointer;
+}
+
+#Osaka:hover {
+    fill:rgb(255, 199, 234);
+    transition: fill 0.4s;
+    cursor: pointer;
+}
+
+#Fukuoka:hover {
+    fill:rgb(255, 199, 234);
+    transition: fill 0.4s;
+    cursor: pointer;
+}
+
