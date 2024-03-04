@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: rgb(248, 253, 207);
+    background-color: #f8fdcf;
     
 }
 
@@ -100,10 +100,11 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    
 }
 
 .grid-item .text{
-    padding:50px;
+    padding: 20px;
     text-align: center;
     color: #78C1F3;
 }
@@ -137,6 +138,10 @@ body {
     text-align: left;
 }
 
+.grid-item:hover h1{
+    opacity: 0;
+}
+
 .grid-item:hover .text-overlay{
     opacity: 1;
     cursor: pointer;
@@ -146,10 +151,6 @@ body {
     transform: scale(1.1);
     opacity: 0;
     cursor: pointer;
-}
-
-.grid-item:hover h1{
-    opacity: 0;
 }
 
 a{
