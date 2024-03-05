@@ -128,7 +128,7 @@ body{
 
 .card__image{
   position: relative;
-  background-color: #9BE8D8;
+  background-color: #9BABE8;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   height: auto;
@@ -137,7 +137,7 @@ body{
 }
 
 .card__data{
-  background-color: #9BE8D8;
+  background-color: #9BABE8;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   text-align: center;
@@ -156,21 +156,22 @@ body{
 
 .card__name{
   font-size: 1.25rem;
-  color: black;
+  color: #2D485B;
   margin-bottom: .75rem;
 }
 
 .card__description{
   font-weight: 500;
   margin-bottom: 1.75rem;
+  color: #2D485B;
 }
 
 .card__button{
   display: inline-block;
-  background-color: #f8fdcf;
+  background-color: #abddff;
   padding: .75rem 1.5rem;
   border-radius: .5rem;
-  color: black;
+  color: #2D485B;
   font-weight: 600;
 }
 
