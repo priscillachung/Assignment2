@@ -33,7 +33,7 @@ h2{
   font-size: 20pt;
   font-weight: 500;
   margin-bottom: 20px;
-  color: #3C6179;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@ h2{
   z-index: 15;
   top: 0;
   right: 0;
-  background-color: #78c1f3;
+  background-color: #ABD8F7;
   overflow: hidden;
   transition: 0.5s;
 }
@@ -65,7 +65,7 @@ h2{
   font-size: 36px;
   border-bottom: none;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   float: right;
   margin-right: 25px;
   margin-bottom: 50px;
@@ -81,18 +81,19 @@ h2{
   padding: 12px 8px 12px 30px;
   text-decoration: none;
   font-size: 18px; 
-  color:white;
+  color:#54748a;
   display: block;
   transition: 0.3s;
   text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sidenav ul li a:hover{
-  background: #69A9D5
+  background: #9AA3F6
 }
 
 body{
-  background-color: #abddff;
+  background-color: #9AA3F6;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -128,7 +129,7 @@ body{
 
 .card__image{
   position: relative;
-  background-color: #9BABE8;
+  background-color: #ABD8F7;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   height: auto;
@@ -137,7 +138,7 @@ body{
 }
 
 .card__data{
-  background-color: #9BABE8;
+  background-color: #ABD8F7;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   text-align: center;
@@ -156,23 +157,26 @@ body{
 
 .card__name{
   font-size: 1.25rem;
-  color: #2D485B;
+  color: #16242D;
   margin-bottom: .75rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card__description{
   font-weight: 500;
   margin-bottom: 1.75rem;
-  color: #2D485B;
+  color: #16242D;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card__button{
   display: inline-block;
-  background-color: #abddff;
+  background-color: #9AA3F6;
   padding: .75rem 1.5rem;
   border-radius: .5rem;
-  color: #2D485B;
+  color: #ffffff;
   font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .swiper-button-prev:after,
@@ -185,7 +189,7 @@ content: "";
 width: initial;
 height: initial;
 font-size: 3rem;
-color: #9BE8D8;
+color: #ffffff;
 display: none;
 }
 

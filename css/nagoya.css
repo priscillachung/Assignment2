@@ -29,10 +29,11 @@ h1{
 }
 
 h2{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Handwrite;
   font-size: 20pt;
   font-weight: 500;
   margin-bottom: 20px;
+  color: #78C1F3;
 }
 
 #main{
@@ -83,6 +84,7 @@ h2{
   display: block;
   transition: 0.3s;
   text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sidenav ul li a:hover{
@@ -90,7 +92,7 @@ h2{
 }
 
 body{
-  background-color: rgb(248, 253, 207);
+  background-color: #b3fea3;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -126,7 +128,7 @@ body{
 
 .card__image{
   position: relative;
-  background-color: #9BE8D8;
+  background-color: #ffffff;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   height: auto;
@@ -135,7 +137,7 @@ body{
 }
 
 .card__data{
-  background-color: #78c1f3;
+  background-color: #ffffff;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   text-align: center;
@@ -154,22 +156,26 @@ body{
 
 .card__name{
   font-size: 1.25rem;
-  color: black;
+  color: #3C6179;
   margin-bottom: .75rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card__description{
   font-weight: 500;
   margin-bottom: 1.75rem;
+  color: #3C6179;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card__button{
   display: inline-block;
-  background-color: #9BE8D8;
+  background-color: #e4d2ff;
   padding: .75rem 1.5rem;
   border-radius: .25rem;
-  color: black;
+  color: #3C6179;
   font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .swiper-button-prev:after,
